@@ -74,14 +74,15 @@ Restart Home Assistant.
 
 ## Configure the integration:
 
-To install this integration you will need a Google Refresh Token which you can get by following the instructions at: https://www.angelod.com/onhubauthtool
+To install this integration you will need a Google Refresh Token.
 
-Note that using the Chrome Plugin is much easier.
+The only way that I have found to get a Refresh token is to go to: [Google Dev Console](https://console.cloud.google.com/project?pli=1) \
+and create a new application, there are plenty of guides on how to do this. Then go to [Google Auth Playground](https://developers.google.com/oauthplayground/), go to settings and select use own creds, then authorize any api (I did Drive auth). There should be a button to exchage request for tokens or something, click that and get the token.
 
 Once installed, restart Home Assistant and go to Configuration -> Integrations and click the + to add a new integration.
 
 Search for Google WiFi and you will see the integration available.
 
-Enter the refresh token in the integration configuration screen and hit submit.
+Enter the refresh token, your email and a android id if you have on in the integration configuration screen and hit submit.
 
 Enjoy!
