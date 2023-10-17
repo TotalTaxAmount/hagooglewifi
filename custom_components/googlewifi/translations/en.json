@@ -3,7 +3,7 @@
     "config": {
       "step": {
         "user": {
-          "description": "Please get a refresh token from https://www.angelod.com/onhubauthtool to configure the integration.",
+          "description": "Please get a refresh token.",
           "data": {
             "refresh_token": "Refresh Token",
             "username": "Username (email)",

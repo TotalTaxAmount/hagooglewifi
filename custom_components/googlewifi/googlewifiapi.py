@@ -27,7 +27,7 @@ class GoogleWifi:
     self._hass = hass
     self._refresh_token = refresh_token
     self._username = username
-    self._android_id = android_id
+    self._android_id = None
     self._access_token = None
     self._api_token = None
     self._systems = None
